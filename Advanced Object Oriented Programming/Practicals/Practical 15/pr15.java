@@ -1,6 +1,3 @@
-/*
-Write a program in Java to demonstrate multilevel inheritance
-*/
 class EXT2{
     static int u = 30;
 }

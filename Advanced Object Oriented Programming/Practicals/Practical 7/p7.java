@@ -6,6 +6,7 @@ class rec{
     }
 }
 public class p7 {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         rec r1 = new rec();
     }

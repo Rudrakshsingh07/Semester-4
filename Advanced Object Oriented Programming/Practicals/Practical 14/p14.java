@@ -1,7 +1,3 @@
-/*
-Write a program in Java to demonstrate single inheritance
-*/
-
 class EXT {
     static int t = 10;
     void displayEXT(int i,int j){

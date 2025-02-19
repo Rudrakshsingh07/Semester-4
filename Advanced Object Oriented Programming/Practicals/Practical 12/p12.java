@@ -1,7 +1,3 @@
-/*
- Write a program in Java to demonstrate the constructor
- overloading
- */
  class Cc{
     Cc(){
         System.out.println("Hello World");
@@ -11,6 +7,7 @@
     }
 }
  public class p12 {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         Cc a = new Cc();
         Cc b = new Cc("Nityam");

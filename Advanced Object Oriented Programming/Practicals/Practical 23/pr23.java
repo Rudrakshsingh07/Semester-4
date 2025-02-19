@@ -7,7 +7,7 @@ class DivideByZeroException extends Exception{
 }
 public class pr23 {
     double display(int a, int b) throws DivideByZeroException{
-        if (b==0){
+        if (b == 0 || a == 0){
             throw new DivideByZeroException("Cannot Divide By Zero");
         }
         else{
