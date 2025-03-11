@@ -1,0 +1,22 @@
+<h2>Product Details</h2>
+<div *ngIf="product">
+  <table border="1">
+    <tr>
+      <th>Product ID</th>
+      <th>Name</th>
+      <th>Purchase Date</th>
+      <th>Price</th>
+      <th>Photo</th>
+    </tr>
+    <tr>
+      <td>{{product.pid}}</td>
+      <td>{{product.name}}</td>
+      <td>{{product.p_date}}</td>
+      <td>{{product.price}}</td>
+      <td><img [src]="product.photo" alt="{{product.name}}" style="max-width: 100px;"></td>
+    </tr>
+  </table>
+</div>
+<div *ngIf="!product">
+  <p>Product not found!</p>
+</div>

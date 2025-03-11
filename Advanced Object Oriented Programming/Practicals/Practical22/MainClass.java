@@ -1,9 +1,7 @@
-package Practicals.Practical22;
+import pr22.A;
+import pr222.B;
 
-import Practicals.Practical22.A;
-import Practicals.Practical22.B;
-
-public class MainClass { // Renamed to avoid using 'package'
+public class MainClass { 
     public static void main(String[] args) {
         A ob1 = new A();
         B ob2 = new B();

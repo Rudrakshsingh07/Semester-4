@@ -1,4 +1,4 @@
-package Practicals.Practical22;
+package pr222;
 
 public class B {
     public void display(){

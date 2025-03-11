@@ -1,0 +1,13 @@
+<table border="1">
+    
+  <td>ProductID</td>
+  <td>Name</td>
+
+<tr *ngFor="let i of product_arr">
+  <td>{{i.pid}}</td>
+  <td>{{i.name}}</td>
+  <td><button (click)="goToDetails(i.pid)">View Details</button></td>
+</tr>
+</table>
+
+<router-outlet></router-outlet>
