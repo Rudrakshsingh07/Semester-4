@@ -1,0 +1,14 @@
+angular.ng-template
+anysphere.pyright
+bmewburn.vscode-intelephense-client
+mechatroner.rainbow-csv
+ms-python.debugpy
+ms-python.python
+ms-python.vscode-pylance
+ritwickdey.liveserver
+visualstudioexptteam.intellicode-api-usage-examples
+vscjava.vscode-java-debug
+vscjava.vscode-java-dependency
+vscjava.vscode-java-pack
+vscjava.vscode-java-test
+vscjava.vscode-maven
