@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 class DivideByZeroException extends Exception{
     DivideByZeroException(String s){
         super(s);
@@ -17,12 +15,9 @@ public class pr23 {
         
     }
     public static void main(String [] args){
-        Scanner sc = new Scanner(System.in);
         pr23 d = new pr23();
-        int a,b;
+        int a=10,b=0;
         double c;
-        a = sc.nextInt();
-        b = sc.nextInt();
 
         try {
             c = d.display(a,b);
@@ -31,7 +26,6 @@ public class pr23 {
             System.out.println(e1.getMessage());
 
         }
-        sc.close();
 
     }
 }

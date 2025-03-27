@@ -1,5 +1,5 @@
-// import pr22.A;
-// import pr222.B;
+import pr22.*;
+import pr222.*;
 
 public class MainClass { 
     public static void main(String[] args) {
