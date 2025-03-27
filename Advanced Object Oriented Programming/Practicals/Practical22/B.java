@@ -1,4 +1,4 @@
-package pr222;
+// package pr222;
 
 public class B {
     public void display(){

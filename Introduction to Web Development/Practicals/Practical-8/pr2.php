@@ -34,8 +34,6 @@
         // Define regular expressions for validation
         $namePattern = "/^[a-zA-Z ]+$/";
         $mobilePattern = "/^[0-9]{10}$/";
-        $emailPattern = "/^[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/";
-        $passwordPattern = "/^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/"; // At least one letter, one number, and 8 characters
 
         // Validate Name
         if (!preg_match($namePattern, $_POST['name'])) {
@@ -44,33 +42,11 @@
             $name = htmlspecialchars($_POST['name']);
         }
 
-        // Validate Mobile
-        if (!preg_match($mobilePattern, $_POST['mobile'])) {
-            echo "Invalid Mobile No: Must be 10 digits.<br>";
-        } else {
-            $mobile = htmlspecialchars($_POST['mobile']);
-        }
-
-        // Validate Email
-        if (!preg_match($emailPattern, $_POST['email'])) {
-            echo "Invalid Email: Please enter a valid email address.<br>";
-        } else {
-            $email = htmlspecialchars($_POST['email']);
-        }
-
-        // Validate Password
-        if (!preg_match($passwordPattern, $_POST['pwd'])) {
-            echo "Invalid Password: Must be at least 8 characters long, containing at least one letter and one number.<br>";
-        } else {
-            $password = htmlspecialchars($_POST['pwd']);
-        }
 
         // Validate other fields
         $dob = htmlspecialchars($_POST['dob']);
         $address = htmlspecialchars($_POST['address']);
         $gender = htmlspecialchars($_POST['gender']);
-        $dept = htmlspecialchars($_POST['dept']);
-        $hobbies = isset($_POST['hobbies']) ? implode(", ", $_POST['hobbies']) : "None";
         $salary = htmlspecialchars($_POST['salary']);
 
         // Display the submitted details if everything is valid
@@ -79,12 +55,7 @@
             echo "Name: $name<br>";
             echo "DOB: $dob<br>";
             echo "Address: $address<br>";
-            echo "Mobile No: $mobile<br>";
             echo "Gender: $gender<br>";
-            echo "Email: $email<br>";
-            echo "Password: $password<br>";
-            echo "Department: $dept<br>";
-            echo "Hobbies: $hobbies<br>";
             echo "Salary: $salary<br>";
         }
     }

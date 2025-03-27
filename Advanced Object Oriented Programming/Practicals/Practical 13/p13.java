@@ -3,6 +3,7 @@
 */
 public class p13 {
 
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         String s = new String("hello World");
         String s1 = new String("hello");
@@ -17,6 +18,5 @@ public class p13 {
         {
             System.out.println(a);
         }
-
     }
 }

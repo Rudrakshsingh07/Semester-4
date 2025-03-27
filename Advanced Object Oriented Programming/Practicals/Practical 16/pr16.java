@@ -13,14 +13,14 @@ class EXT extends EXT2{
         System.out.println(" EXT Display I + T : " + e);
     }
 }
-class p16 extends EXT2 {
+class pr16 extends EXT2 {
     static int y = 20;
     void displayEXT(int i,int j){
         int e = i+j;
-        System.out.println(" P16 Display I + J : " + e);
+        System.out.println(" pr16 Display I + J : " + e);
     }
     public static void main(String[] args) {
-        p16 obj16 = new p16();
+        pr16 obj16 = new pr16();
         obj16.displayEXT(y,u);
         EXT objEXT = new EXT();
         objEXT.displayEXT(u);

@@ -1,4 +1,4 @@
-package pr22;
+// package pr22;
 
 public class A {  // <-- Change 'class A' to 'public class A'
     public void display() {

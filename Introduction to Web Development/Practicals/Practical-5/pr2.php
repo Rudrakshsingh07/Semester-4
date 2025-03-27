@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html>  
 <head>
     <title>Array Sorting</title>
     <style>

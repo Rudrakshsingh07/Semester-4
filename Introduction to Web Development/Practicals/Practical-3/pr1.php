@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Simple Calculator</title>
-    <style>
+    <!-- <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
@@ -19,7 +19,7 @@
             margin: 10px;
             padding: 8px;
         }
-    </style>
+    </style> -->
 </head>
 <body>
     <div class="container">
